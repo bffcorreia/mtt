@@ -166,7 +166,7 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 header.masthead .header-install {
@@ -248,10 +248,8 @@ section.features .section-heading {
   margin-bottom: 100px;
 }
 
-@media (min-width: 992px) {
-  section.features .section-heading {
-    padding-top: 180px;
-  }
+section.features .section-heading h1 {
+  font-size: 45px;
 }
 
 section.features .section-heading h2 {
@@ -260,6 +258,15 @@ section.features .section-heading h2 {
 
 section.features .section-heading p {
   margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  section.features .section-heading {
+    padding-top: 180px;
+  }
+  section.features .section-heading h1 {
+    font-size: 50px;
+  }
 }
 
 section.features .device-container,
