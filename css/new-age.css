@@ -184,7 +184,7 @@ header.masthead .device-container {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 95vh;
+    height: 90vh;
     padding-top: 0;
     padding-bottom: 0;
   }
